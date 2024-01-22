@@ -1,0 +1,53 @@
+.basket {
+  width: 100%;
+  min-height: 90vh;
+  padding: 150px 0;
+  text-align: center;
+
+  .prod-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    .prod-card {
+      width: 26%;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      p {
+        color: gray;
+        cursor: pointer;
+        &:hover {
+          color: #ffb606;
+        }
+      }
+      h2 {
+        font-size: 1.2em;
+        cursor: pointer;
+        &:hover {
+          color: #ffb606;
+        }
+      }
+      i {
+        color: #ffb606;
+        font-size: 2em;
+      }
+      .card-icons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        i {
+          cursor: pointer;
+          color: black;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}

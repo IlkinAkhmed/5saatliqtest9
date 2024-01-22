@@ -1,0 +1,77 @@
+.add {
+  width: 100%;
+  padding: 180px 0;
+  min-height: 100vh;
+  text-align: center;
+  .form {
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .input {
+      width: 80%;
+      border-radius: 8px;
+      border: 1px solid gray;
+      height: 40px;
+    }
+    button {
+      border-radius: 8px;
+      border: 1px solid gray;
+      height: 40px;
+      width: 150px;
+      cursor: pointer;
+      &:hover {
+        color: #ffb606;
+        background-color: black;
+        border: 1px solid #ffb606;
+      }
+    }
+  }
+  .filterArea {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+    input {
+      height: 30px;
+    }
+    button {
+      padding: 0 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      border: 1px solid gray;
+      &:hover {
+        color: #ffb606;
+        background-color: black;
+        border: 1px solid #ffb606;
+      }
+    }
+  }
+  table {
+    width: 1200px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    margin: auto;
+    th,
+    td {
+      padding: 20px 0;
+      border-bottom: 1px solid gray;
+      border-left: 1px solid gray;
+      i {
+        color: #ffb606;
+        font-size: 1.2em;
+      }
+      .fa-trash-can {
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+}
